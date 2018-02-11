@@ -1,5 +1,7 @@
 # VideoCommander
 
+**Disclaimer**: lib is in development and some features might break
+
 This library unifies video player APIs.
 Youtube, Vimeo, Facebook, Twitch and other players traditionaly have different APIs.
 VideoCommander provides one way of configuration, method calls & event handling, no matter which provider you decide to support.
