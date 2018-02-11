@@ -1,0 +1,1 @@
+export default () => window.Vimeo && !!window.Vimeo.Player

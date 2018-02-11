@@ -1,0 +1,1 @@
+export default () => window.Twitch && !!window.Twitch.Player

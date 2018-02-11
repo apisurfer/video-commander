@@ -1,0 +1,48 @@
+{
+  "name": "video-commander",
+  "version": "0.0.1",
+  "description": "Library that unifies video player APIs",
+  "main": "dist/videoCommander.js",
+  "scripts": {
+    "test": "echo '\n\nTests need more work. For now they only cover the initialization of players. Beware \n\n'; ./node_modules/karma/bin/karma start",
+    "watch": "./node_modules/.bin/webpack --watch --progress",
+    "build": "./node_modules/.bin/webpack --config webpack.config.dist.js"
+  },
+  "keywords": [
+    "video",
+    "player",
+    "video",
+    "commander"
+  ],
+  "author": "Luka Vidakovic (https://popc0rn.me)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "jasmine": "^2.6.0",
+    "jasmine-core": "^2.6.0",
+    "karma": "^1.6.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-html2js-preprocessor": "^1.1.0",
+    "karma-jasmine": "^1.1.0",
+    "source-map-loader": "^0.2.1",
+    "standard": "^10.0.3",
+    "webpack": "^3.11.0",
+    "webpack-merge": "^4.1.1"
+  },
+  "dependencies": {
+    "eventemitter3": "^2.0.3"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "plugins": [
+      "exportDefaultFrom"
+    ],
+    "globals": []
+  }
+}
